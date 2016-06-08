@@ -21,8 +21,6 @@
  */
 
 #import "Utility.h"
-@import UIKit;
-#import <UIKit/UIKit.h>
 
 @implementation Utility
 

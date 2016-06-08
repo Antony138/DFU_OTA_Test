@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E9A5896339AD9A06F87D2DF1'
+               BlueprintIdentifier = '808C6033813DBB825FD3B3D8'
                BlueprintName = 'iOSDFULibrary'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'iOSDFULibrary.framework'>
