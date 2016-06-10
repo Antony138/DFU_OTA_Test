@@ -1,5 +1,7 @@
 # DFU\_OTA_Test
 Update device firmware through OTA
+
+是嵌入[iOS-nRF-Toolbox](https://github.com/NordicSemiconductor/IOS-nRF-Toolbox)中的DFU这部分功能实现的OTA升级。
 ##流程
 - 1、将固件(ZIP格式)放入firmwares文件夹下；
 - 2、发送相应指令使你的硬件进入DFU模式（这个demo没有集成这个指令，因为每款硬件进入DFU模式的指令不一样，是由写固件的人定义的）。在用这个demo进行OTA升级前，可以用LightBlue写入对应的指令使硬件进入DFU模式。
