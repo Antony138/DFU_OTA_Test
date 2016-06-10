@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // OTA升级的配置
+    [self setupOTAUpdate];
     
     DFUViewController *dfuVC = [[DFUViewController alloc] init];
     UINavigationController *dfuNavController = [[UINavigationController alloc] initWithRootViewController:dfuVC];
@@ -26,6 +28,12 @@
     self.window.rootViewController = dfuNavController;
 
     return YES;
+}
+
+#pragma mark OTA升级相关设置
+- (void)setupOTAUpdate {
+    NSDictionary* defaults = [NSDictionary dictionaryWithObjects:@[@"2.3", [NSNumber numberWithInt:12], @NO] forKeys:@[@"key_diameter", @"dfu_number_of_packets", @"dfu_force_dfu"]];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaults];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

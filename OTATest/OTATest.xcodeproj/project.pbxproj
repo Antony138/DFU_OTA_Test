@@ -31,7 +31,6 @@
 		F41535841D069B2300826686 /* ScannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41535761D069B2300826686 /* ScannerViewController.xib */; };
 		F41535861D069B7300826686 /* firmwares in Resources */ = {isa = PBXBuildFile; fileRef = F41535851D069B7300826686 /* firmwares */; };
 		F415358A1D069BE000826686 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F41535891D069BE000826686 /* UIColor+HexString.m */; };
-		F415358C1D06AA7400826686 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F415358B1D06AA7400826686 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +100,6 @@
 		F41535851D069B7300826686 /* firmwares */ = {isa = PBXFileReference; lastKnownFileType = folder; path = firmwares; sourceTree = "<group>"; };
 		F41535881D069BE000826686 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		F41535891D069BE000826686 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
-		F415358B1D06AA7400826686 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +170,6 @@
 		F41535221D06998000826686 /* OTATest */ = {
 			isa = PBXGroup;
 			children = (
-				F415358B1D06AA7400826686 /* Settings.bundle */,
 				F41535871D069BCC00826686 /* UIColor+HexString */,
 				F41535561D069B2300826686 /* DFU */,
 				F41535261D06998000826686 /* AppDelegate.h */,
@@ -352,6 +349,7 @@
 				TargetAttributes = {
 					F415351F1D06998000826686 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H2VAN67H99;
 					};
 					F41535381D06998000826686 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -394,7 +392,6 @@
 				F41535861D069B7300826686 /* firmwares in Resources */,
 				F41535841D069B2300826686 /* ScannerViewController.xib in Resources */,
 				F415352E1D06998000826686 /* Main.storyboard in Resources */,
-				F415358C1D06AA7400826686 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +620,7 @@
 			baseConfigurationReference = 7AA4C1FDA050327FB6395730 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OTATest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -636,6 +634,7 @@
 			baseConfigurationReference = 5BB8D882A0EE6602E7200556 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OTATest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
