@@ -32,13 +32,6 @@
 		F41535861D069B7300826686 /* firmwares in Resources */ = {isa = PBXBuildFile; fileRef = F41535851D069B7300826686 /* firmwares */; };
 		F415358A1D069BE000826686 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = F41535891D069BE000826686 /* UIColor+HexString.m */; };
 		F415358C1D06AA7400826686 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F415358B1D06AA7400826686 /* Settings.bundle */; };
-		F41536AB1D07B58900826686 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536AA1D07B58900826686 /* libz.tbd */; };
-		F41536AD1D07B60A00826686 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536AC1D07B60A00826686 /* QuartzCore.framework */; };
-		F41536AF1D07B61D00826686 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536AE1D07B61D00826686 /* Accelerate.framework */; };
-		F41536B11D07B62600826686 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536B01D07B62600826686 /* CoreBluetooth.framework */; };
-		F41536B31D07B62E00826686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536B21D07B62E00826686 /* Foundation.framework */; };
-		F41536B51D07B63500826686 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536B41D07B63500826686 /* CoreGraphics.framework */; };
-		F41536B71D07B64000826686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41536B61D07B64000826686 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,14 +102,6 @@
 		F41535881D069BE000826686 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		F41535891D069BE000826686 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		F415358B1D06AA7400826686 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		F41536AA1D07B58900826686 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		F41536AC1D07B60A00826686 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F41536AE1D07B61D00826686 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		F41536B01D07B62600826686 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		F41536B21D07B62E00826686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F41536B41D07B63500826686 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F41536B61D07B64000826686 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F41536B81D07B72100826686 /* nRF Toolbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nRF Toolbox-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,13 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41536B71D07B64000826686 /* UIKit.framework in Frameworks */,
-				F41536B51D07B63500826686 /* CoreGraphics.framework in Frameworks */,
-				F41536B31D07B62E00826686 /* Foundation.framework in Frameworks */,
-				F41536B11D07B62600826686 /* CoreBluetooth.framework in Frameworks */,
-				F41536AF1D07B61D00826686 /* Accelerate.framework in Frameworks */,
-				F41536AD1D07B60A00826686 /* QuartzCore.framework in Frameworks */,
-				F41536AB1D07B58900826686 /* libz.tbd in Frameworks */,
 				B6DAAB313BE0D1C3C0825DDA /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,13 +142,6 @@
 		CF3EFAA296573574A3FEF191 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F41536B61D07B64000826686 /* UIKit.framework */,
-				F41536B41D07B63500826686 /* CoreGraphics.framework */,
-				F41536B21D07B62E00826686 /* Foundation.framework */,
-				F41536B01D07B62600826686 /* CoreBluetooth.framework */,
-				F41536AE1D07B61D00826686 /* Accelerate.framework */,
-				F41536AC1D07B60A00826686 /* QuartzCore.framework */,
-				F41536AA1D07B58900826686 /* libz.tbd */,
 				A4B89013CC45010E1274C4B6 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -220,7 +191,6 @@
 		F41535231D06998000826686 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F41536B81D07B72100826686 /* nRF Toolbox-Prefix.pch */,
 				F41535241D06998000826686 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -653,7 +623,6 @@
 			baseConfigurationReference = 7AA4C1FDA050327FB6395730 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "OTATest/nRF Toolbox-Prefix.pch";
 				INFOPLIST_FILE = OTATest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -667,7 +636,6 @@
 			baseConfigurationReference = 5BB8D882A0EE6602E7200556 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "OTATest/nRF Toolbox-Prefix.pch";
 				INFOPLIST_FILE = OTATest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
